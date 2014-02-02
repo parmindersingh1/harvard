@@ -24,12 +24,10 @@ get_header(); ?>
 			  <div id="page-content" role="main">                         
 			<?php while ( have_posts() ) : the_post(); ?>
 
-
-
-                       <div id="gallery_single" >                                                               
-                                  <?php echo do_shortcode("[gallery]"); ?>
+				
+		                 <div id="gallery_single" >                                                               
+                                  <?php echo do_shortcode("[gallery link='file']"); ?>
                                 </div><!-- #gallery_single -->
-  
 
 
 				

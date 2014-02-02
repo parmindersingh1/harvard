@@ -32,6 +32,14 @@
 </head>
 
 <body <?php body_class(); ?>>
+
+
+
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<div id="twitter_like">
+           <a href="https://twitter.com/SatlujSchool" class="twitter-follow-button" data-dnt="true">Follow @twitterapi</a>
+</div>
+
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
            <div class="wrap">

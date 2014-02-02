@@ -58,6 +58,14 @@ $(window).load(function() {
 	    });
     });
 
+ $('#page-content img').adipoli({
+'startEffect' : 'transparent', 'hoverEffect' : 'boxRainGrowReverse',
+});
+
+$('.fancybox').fancybox(); 
+
 
 } )( jQuery );
+
+
 

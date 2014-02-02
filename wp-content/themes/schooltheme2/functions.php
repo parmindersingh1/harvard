@@ -512,7 +512,7 @@ function my_scripts_method() {
 add_action( 'wp_enqueue_scripts', 'my_scripts_method' );
 
 function my_add_styles() {
-    wp_enqueue_style('flexslider', get_template_directory_uri() .'css/flexslider.css');
+    wp_enqueue_style('flexslider', get_template_directory_uri() .'/css/flexslider.css');
 }
 add_action('wp_enqueue_scripts', 'my_add_styles');
 
